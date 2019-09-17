@@ -1,0 +1,70 @@
+#gtrWrapper td {
+  text-align: center;
+  padding: 5px;
+}
+
+#gtrTop td {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+}
+
+td {
+  -webkit-box-shadow: inset 0 0px 0px #fff, inset 0 0px 0px #fff, inset 0px 0px 0px #fff, inset 0px 0px 0px #fff, 5px 0px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 0px 0px #fff, inset 0 0px 0px #fff, inset 0px 0px 0px #fff, inset 0px 0px 0px #fff, 5px 0px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0px 0px #fff, inset 0 0px 0px #fff, inset 0px 0px 0px #fff, inset 0px 0px 0px #fff, 5px 0px 0px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+table, td, tr {
+  border-right: 3px solid rgba(0, 0, 0, 0.5);
+  min-width: 45px;
+}
+
+.table {
+  /* border: 1; */
+  border-spacing: 0.5rem;
+}
+
+tr.string td {
+  position: relative;
+}
+
+/* tr.string td:after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-bottom: 3px solid silver;
+  width: 100%;
+} */
+
+tr.string {
+  /* border-bottom: 1px solid #afafaf; */
+  height: 30px;
+    /* position: absolute;
+    height: 40px;
+    width: 100%;
+    background-image: linear-gradient(0deg, black 0%, rgba(100, 100, 100, 0.2) 10%, white 50%, rgba(100, 100, 100, 0.2) 90%, gray 100%),
+                      repeating-linear-gradient(to right, black 0px, white 15px) */
+  }
+
+  /* .dotTop {
+  background: #333;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+}
+
+.dotBottom {
+  background: #333;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+} */
